@@ -56,10 +56,10 @@
         layer_1 {
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp BACKSPACE
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP      &kp END    &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &kp INSERT       &kp DELETE  &kp F11    &kp F12           &kp ENTER
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &mo 3      &trans     &trans
+&kp TAB     &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP      &kp END    &kp MINUS         &kp EQUAL
+&kp CAPS    &kp TILDE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LSHFT   &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &kp INSERT       &kp DELETE  &kp F11    &kp F12           &kp ENTER
+&kp C_MUTE  &kp LCTRL        &kp LEFT_GUI    &kp LEFT_ALT     &kp SPACE        &kp ENTER          &mkp LCLK        &kp SPACE        &kp ENTER        &mo 3       &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             display-name = "layer1";
