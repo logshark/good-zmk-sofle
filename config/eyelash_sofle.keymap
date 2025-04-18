@@ -59,7 +59,7 @@
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp BACKSPACE
 &kp TAB     &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP      &kp END    &kp MINUS         &kp EQUAL
 &kp CAPS    &kp TILDE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LSHFT   &rgb_ug RGB_OFF  &kp LBKT        &kp RBKT         &kp LBRC         &kp RBRC           &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &kp INSERT       &kp DEL     &kp F11    &kp F12           &kp ENTER
+&kp LSHFT   &none            &kp LBKT        &kp RBKT         &kp LBRC         &kp RBRC           &mmv MOVE_RIGHT  &none            &kp INSERT       &kp DEL     &kp F11    &kp F12           &kp ENTER
 &kp C_MUTE  &kp LCTRL        &kp LEFT_GUI    &kp LEFT_ALT     &trans           &kp SPACE          &mkp LCLK        &kp SPACE        &kp ENTER        &mo 3       &kp RSHIFT &kp DEL
             >;
 
@@ -69,11 +69,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &kp F1        &kp F2          &kp F3        &kp F4        &kp F5            &mmv MOVE_UP     &kp F6     &kp F7    &kp F8      &kp F9     &kp F10      &trans
-&trans     &trans        &trans          &trans        &kp LPAR      &kp RPAR          &mmv MOVE_DOWN   &kp MINUS  &kp PLUS  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans     &trans        &trans          &trans        &kp LBKT      &kp RBKT          &mmv MOVE_LEFT   &kp UNDER  &kp EQUAL &trans      &trans     &kp LBRC     &kp RBRC
-&trans     &trans        &trans          &trans        &kp LBRC      &kp RBRC          &mmv MOVE_RIGHT  &trans     &trans    &trans      &trans     &trans       &trans
-&trans     &trans        &trans          &trans        &trans        &trans            &mkp LCLK        &trans     &trans    &trans      &trans     &trans
+&kp GRAVE  &kp F1        &kp F2          &kp F3        &kp F4        &kp F5            &mmv MOVE_UP     &kp F6     &kp F7    &kp F8      &kp F9     &kp F10      &trans
+&kp TAB    &kp TILD      &trans          &trans        &kp LPAR      &kp RPAR          &mmv MOVE_DOWN   &kp MINUS  &kp PLUS  &kp F11     &kp F12    &kp UNDER    &kp PLUS
+&kp CAPS   &trans        &trans          &trans        &kp LBKT      &kp RBKT          &mmv MOVE_LEFT   &kp UNDER  &kp EQUAL &trans      &trans     &kp LBRC     &kp RBRC
+&kp LSHFT  &trans        &trans          &trans        &kp LBRC      &kp RBRC          &mmv MOVE_RIGHT  &trans     &trans    &trans      &trans     &trans       &trans
+&trans     &kp LCTRL     &kp LEFT_GUI    &kp LEFT_ALT  &trans        &trans            &mkp LCLK        &trans     &trans    &trans      &trans     &trans
             >;
 
             display-name = "layer2";
@@ -82,11 +82,11 @@
 
         layer_3 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&studio_unlock      &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&kp TILDE       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
+&studio_unlock  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
+&trans          &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
+&trans          &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
+&trans          &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
             display-name = "layer3";
