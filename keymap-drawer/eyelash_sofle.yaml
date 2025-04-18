@@ -145,7 +145,7 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - TAB
-  - TILD
+  - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - (
