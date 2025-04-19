@@ -60,7 +60,7 @@
 &kp TAB     &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP      &kp END    &kp MINUS         &kp EQUAL
 &kp CAPS    &kp TILDE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp LCTRL   &kp LBKT         &kp RBKT        &kp LBRC         &kp RBRC         &none              &mmv MOVE_RIGHT  &kp LCTRL        &kp INSERT       &kp DEL     &kp F11    &kp F12           &kp ENTER
-&kp C_MUTE  &kp LSHFT        &kp LEFT_GUI    &kp LEFT_ALT     &kp SPACE        &trans             &mkp LCLK        &mo 3            &kp SPACE        &kp RSHIFT  &kp ENTER  &kp DEL
+&kp C_MUTE  &kp LEFT_ALT     &kp LEFT_GUI    &kp LSHFT        &kp SPACE        &trans             &mkp LCLK        &mo 3            &kp SPACE        &kp RSHIFT  &kp ENTER  &kp DEL
             >;
 
             display-name = "layer1";
@@ -73,7 +73,7 @@
 &kp TAB    &kp TILDE     &trans          &trans        &kp LPAR      &kp RPAR          &mmv MOVE_DOWN   &kp MINUS  &kp PLUS  &kp F11     &kp F12    &kp UNDER    &kp PLUS
 &kp CAPS   &trans        &trans          &trans        &kp LBKT      &kp RBKT          &mmv MOVE_LEFT   &kp UNDER  &kp EQUAL &trans      &trans     &kp LBRC     &kp RBRC
 &kp LCTRL  &trans        &trans          &trans        &kp LBRC      &kp RBRC          &mmv MOVE_RIGHT  &trans     &trans    &trans      &trans     &trans       &trans
-&trans     &kp LSHFT     &kp LEFT_GUI    &kp LEFT_ALT  &kp SPACE     &trans            &mkp LCLK        &trans     &kp SPACE &kp RSHIFT  &kp ENTER  &kp DEL
+&trans     &kp LEFT_ALT  &kp LEFT_GUI    &kp LSHFT  &kp SPACE        &trans            &mkp LCLK        &trans     &kp SPACE &kp RSHIFT  &kp ENTER  &kp DEL
             >;
 
             display-name = "layer2";
