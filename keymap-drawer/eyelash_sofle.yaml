@@ -119,9 +119,9 @@ layers:
   - F12
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - LSHFT
-  - LEFT GUI
   - LEFT ALT
+  - LEFT GUI
+  - LSHFT
   - $$mdi:keyboard-space$$
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
@@ -184,9 +184,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - LSHFT
-  - LEFT GUI
   - LEFT ALT
+  - LEFT GUI
+  - LSHFT
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
